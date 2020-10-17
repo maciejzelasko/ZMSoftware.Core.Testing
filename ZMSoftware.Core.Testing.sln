@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30611.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZMSoftware.Core.Testing", "src\ZMSoftware.Core.Testing\ZMSoftware.Core.Testing.csproj", "{BDDC965A-7DA2-442D-81D8-7731626C01DE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{BFC2806F-8394-4AC8-937A-718DE75C527D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BDDC965A-7DA2-442D-81D8-7731626C01DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDDC965A-7DA2-442D-81D8-7731626C01DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDDC965A-7DA2-442D-81D8-7731626C01DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDDC965A-7DA2-442D-81D8-7731626C01DE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BDDC965A-7DA2-442D-81D8-7731626C01DE} = {BFC2806F-8394-4AC8-937A-718DE75C527D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {81CC9799-0633-47E1-A039-FE78E997F0DA}
+	EndGlobalSection
+EndGlobal
