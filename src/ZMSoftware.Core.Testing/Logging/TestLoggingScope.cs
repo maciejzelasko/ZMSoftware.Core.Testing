@@ -4,7 +4,7 @@ namespace ZMSoftware.Core.Testing.Logging
 {
     internal class TestLoggingScope : IDisposable
     {
-        public static readonly TestLoggingScope Instance = new TestLoggingScope();
+        public static readonly TestLoggingScope Instance = new ();
 
         private TestLoggingScope()
         {
