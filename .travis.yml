@@ -10,10 +10,10 @@ branches:
 before_script:
   - chmod -R a+x scripts
 script:
-  - ./scripts/build.sh
-  - ./scripts/test.sh
+  - ./scripts/CI/build.sh
+  - ./scripts/CI/test.sh
 after_success:
-  - ./scripts/pack.sh
+  - ./scripts/CI/pack.sh
 notifications:
   email:
     on_success: never
